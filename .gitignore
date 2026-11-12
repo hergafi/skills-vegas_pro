@@ -1,0 +1,30 @@
+# Build outputs
+*.dll
+*.exe
+*.pdb
+*.obj
+*.ilk
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Vegas Pro user data / temp files — never commit project files or logs
+*.veg
+*.vf
+*.vegpf
+RenderedFiles/
+SmartStabilization/
+*.log
+*.dmp
+
+# Assets you may need locally
+build/
+out/
