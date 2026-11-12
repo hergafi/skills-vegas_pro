@@ -18,22 +18,32 @@ This repository teaches developers how to build, debug and ship real **Vegas Pro
 
 ## Screenshots | صور للأداة المجانية
 
-> Place the four screenshots below into `docs/screenshots/` with exactly these names, then commit.
+Four images from the real production script running on Vegas Pro 2026 (Build 105).
+أربع صور للسكربت الفعلي وهو يعمل على Vegas Pro 2026 (Build 105).
 
-```
-docs/screenshots/
-├── 01-analysis-running.png     ← analysis in progress (75% / obstacle window)
-├── 02-freeze-preset.png       ← Freeze motion preset, all-events applied
-├── 03-media-fx-full-freeze.png← Full preset + Freeze motion (smoothing 8.0)
-└── 04-vegas-pro-splash.png   ← Vegas Pro 2026 splash screen (Version 2026.0 Build 105)
+| # | File | What it shows | ماذا تُظهر |
+|---|------|---------------|------------|
+| 1 | `docs/screenshots/01-analysis-running.png` | Vegas Video Stabilization running at 75% on the selected clip (Event FX via subclip). | نافذة Vegas Video Stabilization عند 75% أثناء التحليل |
+| 2 | `docs/screenshots/02-freeze-applied.png` | Full preset + Freeze motion, smoothing 8.0, Media FX on all video events, with log output saved. | Full + Freeze (smoothing 8.0) مُطبّقة على كامل الفيديو مع سجل الحفظ |
+| 3 | `docs/screenshots/03-script-caption.png` | The script's caption appears beside the Vegas Pro toolbar when run. | التعليق البرمجي للسكربت يظهر جانب الواجهة في Vegas Pro |
+| 4 | `docs/screenshots/04-vegas-pro-splash.png` | Vegas Pro 2026 splash screen — Version 2026.0 (Build 105). | شاشة الإقلاع الرسمية 2026.0 Build 105 |
+
+### Row of images
+
+```markdown
+![01-analysis-running](docs/screenshots/01-analysis-running.png)
+![02-freeze-applied](docs/screenshots/02-freeze-applied.png)
+![03-script-caption](docs/screenshots/03-script-caption.png)
+![04-vegas-pro-splash](docs/screenshots/04-vegas-pro-splash.png)
 ```
 
-| # | Image description | إنشائها                     |
-|---|-------------------|------------------------------|
-| 1 | `01-analysis-running.png` — Vegas Video Stabilization window mid-analysis (75% bar), running on all 5 selected clips. | نافذة التحليل أثناء العمل (شريط التقدم 75%) |
-| 2 | `02-freeze-preset.png` — Freeze motion preset dropdown, per-clip Media FX, with log lines. | قائمة Freeze motion والنتيجة النهائية |
-| 3 | `03-media-fx-full-freeze.png` — Full preset + Freeze motion smoothing 8.0 on all video events. | تحديد Full + Freeze لجميع الأحداث |
-| 4 | `04-vegas-pro-splash.png` — Vegas Pro 2026 splash screen, Version 2026.0 (Build 105). | شاشة الإقلاع الرسمية |
+![01-analysis-running](docs/screenshots/01-analysis-running.png)
+
+![02-freeze-applied](docs/screenshots/02-freeze-applied.png)
+
+![03-script-caption](docs/screenshots/03-script-caption.png)
+
+![04-vegas-pro-splash](docs/screenshots/04-vegas-pro-splash.png)
 
 ---
 
@@ -45,7 +55,7 @@ skills-vegas_pro/
 ├── LICENSE                    ← Apache-2.0
 ├── CONTRIBUTING.md            ← how to contribute
 ├── docs/
-│   └── screenshots/           ← put the screenshots here (see above)
+│   └── screenshots/           ← UI screenshots from the production script
 └── scripts/
     ├── SKILL.md               ← the main skill (read this first)
     └── assets/
